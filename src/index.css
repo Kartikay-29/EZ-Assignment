@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .bg-mandala {
+    background-image: url('./assets/mandala.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
